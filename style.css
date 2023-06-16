@@ -1,0 +1,18 @@
+.main-first{
+padding: 20px;
+width: 100%;
+height: 50px;
+background:#f01;
+}
+.index-header{
+    width: 100%;
+    height: 50px;
+}
+
+.bimage {
+    background-image:url(/image/seaside.jpg);
+    background-repeat: no-repeat;
+    width:1220px;
+    height: 1200px;
+
+}
