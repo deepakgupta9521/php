@@ -2,17 +2,44 @@
 padding: 20px;
 width: 100%;
 height: 50px;
-background:rgb(106, 255, 0);
+
 }
 .index-header{
-    width: 100%;
-    height: 50px;
+    background-color: antiquewhite;
+  
+}
+a{
+    margin-left: 300px;
+    font-size: 20px;
 }
 
 .bimage {
-    background-image:url(/image/seaside.jpg);
+    background-image:url(/image/sunrise-1014712_1280.jpg);
     background-repeat: no-repeat;
-    width:1220px;
-    height: 1200px;
+    width: 1200px;
+    height:1500px;
+    
 
+}
+.text{
+    margin-top: 500px;
+}
+.about_paragraph{
+    display: flex;
+}
+.a_para{
+    width: 100%;
+    margin: 20px;
+    font-size: 25px;
+    align-items: center;
+    word-wrap: normal;
+
+    margin-top: 50px;
+}
+.login_form{
+    font-size: large;
+    padding: auto;
+}
+body{
+    margin: 20px;
 }
