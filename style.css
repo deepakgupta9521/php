@@ -1,23 +1,35 @@
 .main-first{
 padding: 20px;
 width: 100%;
-height: 50px;
+height: 40px;
+display: flex;
 
 }
 .index-header{
     background-color: antiquewhite;
+    margin-bottom: 10px;
+    position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: yellow;
+        
+      
   
 }
 a{
-    margin-left: 300px;
+    margin-left: 250px;
     font-size: 20px;
+    margin: 5 px;
+    margin-bottom: 5px;
 }
 
 .bimage {
-    background-image:url(/image/sunrise-1014712_1280.jpg);
-    background-repeat: no-repeat;
-    width: 1200px;
-    height:1500px;
+    background-image:url(/image/alberta-2297204_1280.jpg);
+    padding: 10px;
+    background-repeat: inherit;
+    width: 100%;
+    height:700px;
+    align-items:end;
     
 
 }
@@ -40,6 +52,12 @@ a{
     font-size: large;
     padding: auto;
 }
-body{
-    margin: 20px;
-}
+.footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
